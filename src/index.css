@@ -7,7 +7,7 @@
 .typewriter h2 {
     color: black;
     overflow: hidden;
-    border-right: .15em solid black;
+    border-right: .15em  transparent;
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: .15em;
@@ -43,6 +43,52 @@
     margin-left: 180px;
   }
 
+
+
+
+  /* the video grapher editor point */
+
+
+  .typewriter1 h5 {
+    color: white;
+    overflow: hidden;
+    border-right: .15em  transparent;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    width: 0;
+  }
+  
+  /* The typing effect */
+  @keyframes typing1 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret1 {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: black;
+    }
+  }
+  
+  .typewriter1 h5 {
+    animation-name: typing, blink-caret;
+    animation-duration: 20s, 0.5s;
+    animation-delay: 7s, 3.5s; /* 2s delay before typing starts, 3.5s delay before cursor blinking starts */
+    animation-fill-mode: forwards; /* Keep the final state after animation */
+    animation-iteration-count:inherit; /* Infinite cursor blinking */
+    margin-left: 180px;
+  }
+
+
   .card-img {
     object-fit: cover;
     width: 100%;
@@ -53,6 +99,42 @@
   .card {
     overflow: hidden; /* Prevent overflow */
   }
+
+
+  .namelandingpage{
+    margin-left: 0px !important;
+  }
+
+
+  /* who am i css */
+
+
+  .animated-underline {
+    position: relative;
+    display: inline-block;
+    color: #3498db; /* Change to your preferred color */
+  }
   
+  .animated-underline::before {
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 2px;
+    bottom: -12px; /* Adjust the distance from the h2 */
+    left: 50px;
+    background-color: #e74c3c; /* Change to your preferred color */
+    transform-origin: center;
+    transform: scaleX(1);
+    transition: transform  1s ;
+  }
+  
+  .animated-underline:hover::before {
+    transform: scaleX(2);
+  }
+
+
+
+
+
   
   

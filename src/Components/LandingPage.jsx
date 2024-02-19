@@ -10,9 +10,9 @@ function LandingPage() {
   }, []);
 
   return (
-    <div className="bg-gray-500" data-aos="fade-down"  data-aos-delay="500"  data-aos-duration="2000">
+    <div className="bg-black landingpage " data-aos="fade-down"  data-aos-delay="500"  data-aos-duration="2000" >
 
-      <div className="card bg-dark text-white h-2/4">
+      <div className="card bg-dark text-white ">
         <img
           src="https://i.pinimg.com/564x/55/76/81/55768174f02c6b99286faa6c57651255.jpg"
           className="card-img"
@@ -44,9 +44,29 @@ function LandingPage() {
             <div className="typewriter">
               <h2 className=" text-5xl text-white font-extrabold">I am Collins Kimani.</h2>
             </div>
+
+            <div className="typewriter1 mt-6">
+              <h5 className="  text-white ">Videographer. PhotoGrapher. Editor</h5>
+            </div>
+            <div className =" flex justify-end mt-24 " 
+            data-aos="fade-up-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="3000"
+            data-aos-delay="5000"
+
+            >
+            <button className=" border-solid border-white  border-opacity-40 border px-4 rounded-xl">MY PORTFOLIO</button>
+          <button className=" ml-36 border py-2 px-4 rounded-xl">GET IN TOUCH</button>
           </div>
-        </div>
+
+
+          </div>
+ 
+
+                   </div>
       </div>
+
     </div>
   );
 }
