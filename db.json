@@ -1,0 +1,25 @@
+{
+    "galleryImages": [
+      { "id": 1, "url": "https://picsum.photos/600/600/?image=511" },
+      { "id": 2, "url": "https://picsum.photos/600/600/?image=512" },
+      { "id": 3, "url": "https://picsum.photos/600/600/?image=513" },
+      { "id": 4, "url": "https://picsum.photos/600/600/?image=514" },
+      { "id": 5, "url": "https://picsum.photos/600/600/?image=515" },
+      { "id": 6, "url": "https://picsum.photos/600/600/?image=516" },
+      { "id": 7, "url": "https://picsum.photos/600/600/?image=517" },
+      { "id": 8, "url": "https://picsum.photos/600/600/?image=518" },
+      { "id": 9, "url": "https://picsum.photos/600/600/?image=519" },
+      { "id": 10, "url": "https://picsum.photos/600/600/?image=520" },
+      { "id": 11, "url": "https://picsum.photos/600/600/?image=521" },
+      { "id": 12, "url": "https://picsum.photos/600/600/?image=522" },
+      { "id": 13, "url": "https://picsum.photos/600/600/?image=523" },
+      { "id": 14, "url": "https://picsum.photos/600/600/?image=524" },
+      { "id": 15, "url": "https://picsum.photos/600/600/?image=525" },
+      { "id": 16, "url": "https://picsum.photos/600/600/?image=526" },
+      { "id": 17, "url": "https://picsum.photos/600/600/?image=527" },
+      { "id": 18, "url": "https://picsum.photos/600/600/?image=528" },
+      { "id": 19, "url": "https://picsum.photos/600/600/?image=529" },
+      { "id": 20, "url": "https://picsum.photos/600/600/?image=530" }
+    ]
+  }
+  
