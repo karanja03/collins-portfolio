@@ -20,6 +20,38 @@
       { "id": 18, "url": "https://picsum.photos/600/600/?image=528" },
       { "id": 19, "url": "https://picsum.photos/600/600/?image=529" },
       { "id": 20, "url": "https://picsum.photos/600/600/?image=530" }
+    ],
+
+    "cards": [
+      {
+        "id": "1",
+        "title": "Diligord",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.",
+        "imageUrl": "https://unsplash.it/500/500/"
+      },
+      {
+        "id": "2",
+        "title": "Rocogged",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.",
+        "imageUrl": "https://unsplash.it/511/511/"
+      },
+
+      {
+        "id": "3",
+        "title": "Diligord",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.",
+        "imageUrl": "https://unsplash.it/500/500/"
+      },
+      {
+        "id": "4",
+        "title": "Rocogged",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.",
+        "imageUrl": "https://unsplash.it/511/511/"
+      }
+
+
     ]
+
+
   }
   
