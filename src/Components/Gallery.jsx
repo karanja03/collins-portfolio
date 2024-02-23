@@ -21,21 +21,13 @@ const DoggoGallery = () => {
     fetchData();
   }, []);
 
-  const galleryStyles = {
-    backgroundColor: '#366A81',
-  };
-  const  imgContainerStyle={
-    backgroundColor:'#12232B'
-    
-  }
-  
 
   return (
-    <div className='gallerybody ' style={galleryStyles}>
-      <h1 className='animated-underline mt-12 mb-14 '>MY GALLERY</h1>
+    <div className='gallerybody py-44 ' style={{ backgroundColor: '#2E3338' }}>
+      <h1 className='animated-underline  mb-20 text-5xl   text-white'>MY GALLERY</h1>
       <div className="grid-container">
         {galleryData.map((image) => (
-          <div key={image.id} style={imgContainerStyle}>
+          <div key={image.id} >
             <img className={`grid-item grid-item-${image.id}`} src={image.url} alt={`Image ${image.id}`} />
             <p className='text-white'>{`"Caption for Image ${image.id}"`}</p>
           </div>

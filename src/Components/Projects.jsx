@@ -20,12 +20,12 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className='pt-24'>
+    <div className='pt-24 py-56' style={{ backgroundColor: "#2E3338" }}>
     <div className="wrapper  ">
-        <div>
-      <h1>MY RECENT PROJECTS</h1>
+        <div className='pb-16 text-center'>
+      <h1 className='text-white text-5xl  animated-underline'>MY RECENT PROJECTS</h1>
       </div>
-      <div className="cols">
+      <div className="cols pt-20">
         {cards.map((card) => (
           <div key={card.id} data-id={card.id} className={`col`}>
             <div className="container">

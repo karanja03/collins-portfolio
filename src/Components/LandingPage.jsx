@@ -14,7 +14,7 @@ function LandingPage() {
 
       <div className="card bg-dark text-white ">
         <img
-          src="https://i.pinimg.com/564x/55/76/81/55768174f02c6b99286faa6c57651255.jpg"
+          // src="https://i.pinimg.com/564x/55/76/81/55768174f02c6b99286faa6c57651255.jpg"
           className="card-img"
           alt="Stony Beach"
         />
@@ -29,7 +29,7 @@ function LandingPage() {
               data-aos-easing="ease-in-sine"
               data-aos-delay="2500"
             >
-              <h2 className="ml-44 font-bold text-7xl">Hello, <span className="text-5xl">👋</span></h2>
+              <h2 className="ml-44 font-bold text-7xl">PHOTOGRAPHY OF COLLINS <span className="text-5xl"></span></h2>
             </div>
 
             <div
@@ -49,11 +49,10 @@ function LandingPage() {
               <h5 className="  text-white ">Videographer. PhotoGrapher. Editor</h5>
             </div>
             <div className =" flex justify-end mt-24 " 
-            data-aos="fade-up-left"
-            data-aos-anchor="#example-anchor"
-            data-aos-offset="500"
-            data-aos-duration="3000"
-            data-aos-delay="5000"
+              data-aos="fade-left"
+              data-aos-duration="3000"
+              data-aos-easing="ease-in-sine"
+              data-aos-delay="8000"
 
             >
             <button className=" border-solid border-white  border-opacity-40 border px-4 rounded-xl">MY PORTFOLIO</button>

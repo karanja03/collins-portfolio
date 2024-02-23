@@ -112,7 +112,7 @@
   .animated-underline {
     position: relative;
     display: inline-block;
-    color: #3498db; /* Change to your preferred color */
+    
   }
   
   .animated-underline::before {
@@ -148,7 +148,7 @@ h1 {
   color: coral;
 }
 .grid-container {
-  columns: 5 200px;
+  columns: 3 200px;
   column-gap: 1.5rem;
   width: 90%;
   margin: 0 auto;
@@ -372,3 +372,7 @@ h1{
     margin: 0 0 2rem 0;
   }
 }
+
+
+/* peopleworkedwith */
+

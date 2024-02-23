@@ -8,18 +8,7 @@
       { "id": 6, "url": "https://picsum.photos/600/600/?image=516" },
       { "id": 7, "url": "https://picsum.photos/600/600/?image=517" },
       { "id": 8, "url": "https://picsum.photos/600/600/?image=518" },
-      { "id": 9, "url": "https://picsum.photos/600/600/?image=519" },
-      { "id": 10, "url": "https://picsum.photos/600/600/?image=520" },
-      { "id": 11, "url": "https://picsum.photos/600/600/?image=521" },
-      { "id": 12, "url": "https://picsum.photos/600/600/?image=522" },
-      { "id": 13, "url": "https://picsum.photos/600/600/?image=523" },
-      { "id": 14, "url": "https://picsum.photos/600/600/?image=524" },
-      { "id": 15, "url": "https://picsum.photos/600/600/?image=525" },
-      { "id": 16, "url": "https://picsum.photos/600/600/?image=526" },
-      { "id": 17, "url": "https://picsum.photos/600/600/?image=527" },
-      { "id": 18, "url": "https://picsum.photos/600/600/?image=528" },
-      { "id": 19, "url": "https://picsum.photos/600/600/?image=529" },
-      { "id": 20, "url": "https://picsum.photos/600/600/?image=530" }
+      { "id": 9, "url": "https://picsum.photos/600/600/?image=519" }
     ],
 
     "cards": [
@@ -50,8 +39,40 @@
       }
 
 
-    ]
+    ],
+
+    "members": [
+      {
+        "id": 1,
+        "name": "Ketty Leroux",
+        "imageSrc": "https://i.ibb.co/6nQP7Wm/pexels-vinicius-wiesehofer-1130626-1.jpg",
+        "description": "Lorem Ipsum is a simply dummy text of the printing and typesetting industry.",
+        "email": "kettyleroux@gmail.com"
+      },
+      {
+        "id": 2,
+        "name": "John Doe",
+        "imageSrc": "https://i.ibb.co/6nQP7Wm/pexels-vinicius-wiesehofer-1130626-1.jpg",
+        "description": "Another team member with some information about them.",
+        "email": "johndoe@gmail.com"
+      },
+      {
+        "id": 3,
+        "name": "Jane Smith",
+        "imageSrc": "https://i.ibb.co/6nQP7Wm/pexels-vinicius-wiesehofer-1130626-1.jpg",
+        "description": "A third team member with more information about them.",
+        "email": "janesmith@gmail.com"
+      },
+      {
+        "id": 4,
+        "name": "David Johnson",
+        "imageSrc": "https://i.ibb.co/6nQP7Wm/pexels-vinicius-wiesehofer-1130626-1.jpg",
+        "description": "Lorem Ipsum is a simply dummy text of the printing and typesetting industry.",
+        "email": "davidjohnson@gmail.com"
+      }
+    ]      }
+    
 
 
-  }
+  
   
