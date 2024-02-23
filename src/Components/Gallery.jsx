@@ -23,7 +23,7 @@ const DoggoGallery = () => {
 
 
   return (
-    <div className='gallerybody py-44 ' style={{ backgroundColor: '#2E3338' }}>
+    <div className='gallerybody pt-44  ' style={{ backgroundColor: '#2E3338' }}>
       <h1 className='animated-underline  mb-20 text-5xl   text-white'>MY GALLERY</h1>
       <div className="grid-container">
         {galleryData.map((image) => (
@@ -33,6 +33,7 @@ const DoggoGallery = () => {
           </div>
         ))}
       </div>
+      <p className='text-white ml-auto mr-20 pt-12 pb-4 text-2xl'>SEE MORE?</p>
     </div>
   );
 };
